@@ -29,11 +29,13 @@ La aplicacion cuenta con un login de inicio el cual esta conectado a una base de
 una vez se carga se hace el login carga la pagina y se tiene acceso al monitoreo. En
 caso de no tener cuenta hay un pequeño enlace donde se pregunta *Nueva cuenta?*, al dar
 click se muestra la pagina del registro.
+
 ![Login Page](./github/github-image1.png)
 
 Si se registra un nuevo usuario se le hacen 3 sencillas preguntas de registro basico, de
 igual manera tenemos un pequeño enlace que nos devuelve a la pagina de Login en caso de 
 ya tener una cuenta.
+
 ![Register Page](./github/github-image2.png)
 
 Una vez registrado o realizado el login, se cargara la pagina donde se nos muestra un mensaje
@@ -49,7 +51,7 @@ que registra y abajo de ello encontramos un boton donde se nos muestra la predic
 Prediccion por la IA
 ![IA prediction](./github/github-image5.png)
 
-## Diagramsa e
+## Diagramas
 
 ### Diagrama a bloques
 ![image](https://github.com/slaeiko/IoT-project/assets/101062165/56ffedf3-434b-4480-9b7e-04c4b6a1c726)
