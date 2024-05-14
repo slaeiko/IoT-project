@@ -79,7 +79,7 @@ export const IconsTemperature = () => {
         const tiempoTotal = 75000; // 75000 milisegundos = 75 segundos
         setTimeout(() => {
         clearInterval(intervalID); // Detener el intervalo
-            console.log("Se detuvo el tiempo");
+            
         }, tiempoTotal);
     }
 
