@@ -49,9 +49,16 @@ que registra y abajo de ello encontramos un boton donde se nos muestra la predic
 Prediccion por la IA
 ![IA prediction](./github/github-image5.png)
 
-Diagrama eléctrico
-![image](https://github.com/slaeiko/IoT-project/assets/101062165/ba367dd1-4aad-4ef5-8993-2e60586267e4)
+## Diagramsa e
 
+### Diagrama a bloques
+![image](https://github.com/slaeiko/IoT-project/assets/101062165/56ffedf3-434b-4480-9b7e-04c4b6a1c726)
+
+### Diagrama ISA
+![image](https://github.com/slaeiko/IoT-project/assets/101062165/127c3261-8100-46af-9989-17837e53014f)
+
+### Diagrama léctrico
+![image](https://github.com/slaeiko/IoT-project/assets/101062165/ba367dd1-4aad-4ef5-8993-2e60586267e4)
 
 ## Fotografías del circuito armado
 
