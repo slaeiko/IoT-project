@@ -1,5 +1,6 @@
 export const IAPrediction = () => {
     // TODO: Extraer datos de IA
+    
     const temperaturaPrediccion = 30
     const humedadPrediccion = 54
 
