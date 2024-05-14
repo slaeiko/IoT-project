@@ -48,3 +48,23 @@ que registra y abajo de ello encontramos un boton donde se nos muestra la predic
 
 Prediccion por la IA
 ![IA prediction](./github/github-image5.png)
+
+Diagrama eléctrico
+![image](https://github.com/slaeiko/IoT-project/assets/101062165/ba367dd1-4aad-4ef5-8993-2e60586267e4)
+
+
+## Fotografías del circuito armado
+
+### Temperatura baja, foco encendido
+![image](https://github.com/slaeiko/IoT-project/assets/101062165/ed9a1f21-6699-4235-b276-f240b1408935)
+
+### Temperatura ambiente, actuadores apagados
+![image](https://github.com/slaeiko/IoT-project/assets/101062165/fb10a8b2-d90b-43a6-a188-d50d7ebdda26)
+
+### Temperatura alta, ventilador encendido
+![image](https://github.com/slaeiko/IoT-project/assets/101062165/6c71e3c1-624d-4818-8dd2-c26534f62c4a)
+
+### Sistema de riego encendido
+![image](https://github.com/slaeiko/IoT-project/assets/101062165/0ae8b123-d1ef-4eea-b966-12c33b6e23fd)
+
+
