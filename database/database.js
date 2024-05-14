@@ -1,4 +1,6 @@
 const { MongoClient, ServerApiVersion } = require('mongodb');
+const mongoose = require('mongoose');
+const { ejecutarScriptPython } = require('../pythonHandler');
 
 // Connection URI
 const uri = "mongodb+srv://josecs:password1234@cluster0.0si1vrm.mongodb.net/";
@@ -38,5 +40,35 @@ async function closeConnection() {
   }
 }
 
-module.exports = { connectToDatabase, closeConnection };
+const dbConnection = async(app) => {
+  try {
+      await mongoose.connect(uri)
+        .then(() => {
+          console.log('Connected to MongoDB Atlas!');
+
+          // Ejecutar el script de Python y procesar los resultados
+          const rutaScriptPython = './scripts/train_model.py';
+          ejecutarScriptPython(rutaScriptPython, app)
+              .then(() => {
+                  console.log('El script de Python se ha ejecutado correctamente.');
+              })
+              .catch((error) => {
+                  console.error('Se produjo un error al ejecutar el script de Python:', error);
+              });
+        })
+        .catch((error) => {
+            console.error('Error connecting to MongoDB Atlas:', error);
+            process.exit(1); // Cerrar la aplicación si no se puede conectar a la base de datos
+        });
+
+  } catch (error) {
+      console.log(error);
+      throw new Error('Error al inicializar la base de datos');
+  }
+}
+
+module.exports = { 
+  dbConnection,
+  connectToDatabase, 
+  closeConnection };
 
