@@ -77,3 +77,5 @@ Prediccion por la IA
 ![image](https://github.com/slaeiko/IoT-project/assets/101062165/0ae8b123-d1ef-4eea-b966-12c33b6e23fd)
 
 
+## Video del funcionamiento
+https://drive.google.com/file/d/1ONmR1QUjAyrAPzsgKlDip1_yZWKDfttD/view?usp=sharing
